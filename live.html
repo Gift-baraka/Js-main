@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Date/time and Mode</title>
+  <link rel="stylesheet" href="bus.css">
+</head>
+<body onload="startClock()">
+
+  <div id="topBar">
+    <div id="clock">Loading time...</div>
+    <button onclick="toggleDarkMode()">
+      <span class="icon" id="modeIcon">🌞</span>
+      Toggle Dark Mode
+    </button>
+  </div>
+
+  <h1>Welcome Home</h1>
+  <p>This is a simple page showing time in dark and light mode</p>
+
+  <script src="gif.js"></script>
+  <script scr="ang.js"></script>
+  <div>
+    <label for="timezone">Select time zone:</label>
+    <select id="timezone">
+      <option value="UTC">UTC</option>
+      <option value="Kenya/Nairobi">Kenya/Nairobi</option>
+      <option value="America/New_York">America/New_York</option>
+    </select>
+  </div>
+  <h2 id="clock"></h2>
+</body>
+</html>
