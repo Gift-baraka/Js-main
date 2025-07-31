@@ -38,3 +38,24 @@ button {
   font-size: 18px;
   font-weight: bold;
 }
+body.light{
+     background-color: #FFFFFF;
+     color: #000000;
+   }
+body.dark{
+  background-color: #000000;
+  color: #FFFFFF;
+}
+body.ocean{
+ background: #00aaff;
+ color: #FFFFFF;
+}
+body.sky{
+     background: #87CEEB;
+     color: #FFFFFF;
+   }
+body.dimid{
+  background-color: #048243;
+  color: #FFFFFF;
+}
+
